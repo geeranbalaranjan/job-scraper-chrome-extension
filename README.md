@@ -8,11 +8,12 @@
 
 ### Indeed Results
 
-![Indeed Demo – Job Scraper capturing title, company & location, and link](images/demo-indeed.png)
+![Indeed Demo – Job Scraper capturing title, company & location, and link](images/demo/indeed.png)
+
 
 ### CSV
 
-![CSV Demo - Stores securely in CSV format](images/demo-csv.png)
+![CSV Demo – Stores securely in CSV format](images/demo/csv.png)
 
 ---
 
