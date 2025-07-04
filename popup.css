@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  width: 400px;
+  padding: 10px;
+}
+#stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+#controls {
+  margin-bottom: 8px;
+}
+#controls button {
+  margin-right: 5px;
+}
+.hidden {
+  display: none;
+}
+#settings {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+#settings label {
+  display: block;
+  margin-bottom: 6px;
+}
+#settings input, #settings textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+#json-error {
+  color: red;
+  font-size: 0.9em;
+  margin-bottom: 6px;
+}
+#results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#results-table th, #results-table td {
+  border: 1px solid #ddd;
+  padding: 4px;
+  font-size: 0.9em;
+}
+#results-table th {
+  background: #f3f3f3;
+}

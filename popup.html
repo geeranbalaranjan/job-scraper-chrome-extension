@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Scraper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="stats">
+    <div>Pages: <span id="pages">1</span></div>
+    <div>Items: <span id="items">0</span></div>
+    <div>Duration: <span id="duration">0 ms</span></div>
+  </div>
+
+  <div id="controls">
+    <button id="export-csv">CSV</button>
+    <button id="export-json">JSON</button>
+    <button id="export-copy">Copy</button>
+    <button id="change-list">Change List</button>
+  </div>
+
+  <div id="settings" class="hidden">
+    <label>List Selector:
+      <input type="text" id="list-selector-input" placeholder=".item-class">
+    </label>
+    <label>Load More Selector (optional):
+      <input type="text" id="load-more-selector-input" placeholder="button.load-more">
+    </label>
+    <label>Detail Selectors (JSON array):</label>
+    <textarea id="detail-selectors-input" placeholder='[{"name":"title","selector":".title"}]'></textarea>
+    <div id="json-error"></div>
+    <button id="save-settings">Save</button>
+    <button id="cancel-settings">Cancel</button>
+  </div>
+
+  <div id="results-container">
+    <table id="results-table"></table>
+    <div id="no-results" class="hidden">No results.</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Job Scraper",
+  "version": "1.0",
+  "description": "Scrape any site with one click—runs entirely in your browser.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Job Scraper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
